@@ -99,7 +99,6 @@ Buat akun GitHub (https://github.com/)
 ## Hal-hal yang harus diperhatikan:
 
 - [x] _**Cara mengumpulkan tugas sesuai dengan aturan diatas**_.
-- [x] _**Satu Soal, Satu File**_.
 - [x] _**Satu Praktikum, Satu Folder**_.
 - [x] _**Program Berjalan dengan Baik dan Benar Berdasarkan Ketentuan Tugas**_.
 - [x] _**Tugas Sudah di Asistensikan dan Mendapat Acc**_.
