@@ -16,28 +16,7 @@ Buat akun GitHub (https://github.com/)
 
    ```
 
-3. Setelah anda **clone**, masuk ke folder hasil **clone** tersebut lalu buat **branch** dengan nama **NIM** anda
-
-   ```sh
-
-   cd Lab-BasisData-08-2024
-   git branch NIM_ANDA
-   git checkout NIM_ANDA
-   git config user.name USERNAME_GITHUB
-   git config user.email EMAIL_GITHUB
-
-   ```
-
-4. Setelah anda pindah ke **branch** yang telah anda buat, buat sebuah folder dengan nama **NIM** anda dan masuk ke folder tersebut.
-   ```sh
-
-   mkdir NIM_ANDA
-   cd NIM_ANDA
-
-   ```
-
-
-5. Didalam folder tersebut, buat sebuah folder dengan nama **Praktikum-n**, **n** = praktikum keberapa
+3. Didalam folder **NIM** masing-masing, buat sebuah folder dengan nama **Praktikum-n**, **n** = praktikum keberapa
    ```sh
 
    mkdir "Praktikum-n"
@@ -45,8 +24,8 @@ Buat akun GitHub (https://github.com/)
 
    ```
 
-7. Semua _file_ untuk tugas praktikum ke-**n**, disimpan kedalam folder **Praktikum n**
-8. Setiap membuat _file_ atau melakukan perubahan, lakukan proses **commit** dengan pesan yang deskriptif
+4. Semua _file_ untuk tugas praktikum ke-**n**, disimpan kedalam folder **Praktikum n**
+5. Setiap membuat _file_ atau melakukan perubahan, lakukan proses **commit** dengan pesan yang deskriptif
 
    ```sh
    git add . #perintah ini memilih seluruh file sekaligus
@@ -56,7 +35,7 @@ Buat akun GitHub (https://github.com/)
    
    ```
 
-8. Setelah asistensi dan tugas anda disetujui, **push** seluruh _file_ jawaban yang telah anda buat
+6. Setelah asistensi dan tugas anda disetujui, **push** seluruh _file_ jawaban yang telah anda buat
 
    ```sh
 
@@ -90,10 +69,10 @@ Buat akun GitHub (https://github.com/)
 
    ```
    
-9. Masuk ke akun GitHub anda, dan buka repo yang telah anda **fork** dan **clone**. Lihat perubahan yang terjadi pada repo tersebut dan pastikan bahwa tugas yang
+7. Masuk ke akun GitHub anda, dan buka repo yang telah anda **fork** dan **clone**. Lihat perubahan yang terjadi pada repo tersebut dan pastikan bahwa tugas yang
    telah anda **push** sesuai dan berada pada repo tersebut.
    
-10. Pilih menu **Pull request** dan lakukan **pull request** pada tugas praktikum anda.
+8. Pilih menu **Pull request** dan lakukan **pull request** pada tugas praktikum anda.
 
 
 ## Hal-hal yang harus diperhatikan:
