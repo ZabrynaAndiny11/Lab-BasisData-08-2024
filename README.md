@@ -1,83 +1,48 @@
-# Lab-BasisData-08-2024
-# Repositori Tugas Praktikum Basis Data 2024
+# LAB-BASDAT-08-2024
 
-## Requirements:
-Buat akun GitHub (https://github.com/)
+Tempat kumpul tugas praktikum basis data
 
-## Alur pengumpulan tugas ke repositori ini:
+## Aturan Pengumpulan
+*Note:*  
+_Untuk perintah yang dibungkus < > maka perintah tersebut diganti sesuai instruksi yang ada dalam tanda < > tersebut. Contohnya mkdir <NIM> menjadi `mkdir H071221051`_
+- Silahkan *fork* repositori ini
+- Lakukan *clone* terhadap hasil fork repositori ini ke komputer kalian
 
-1. **Fork** repositori ini
-
-2. **Clone** repositori hasil **fork** anda
-
+  
    ```sh
 
    git clone https://github.com/YOUR_USERNAME/Lab-BasisData-08-2024.git
 
    ```
-
-3. Didalam folder **NIM** masing-masing, buat sebuah folder dengan nama **Praktikum-n**, **n** = praktikum keberapa
-   ```sh
-
-   mkdir "Praktikum-n"
-   cd "Praktikum n"
-
-   ```
-
-4. Semua _file_ untuk tugas praktikum ke-**n**, disimpan kedalam folder **Praktikum n**
-5. Setiap membuat _file_ atau melakukan perubahan, lakukan proses **commit** dengan pesan yang deskriptif
+  
+- Pindah ke repositori hasil clone dengan perintah berikut
 
    ```sh
-   git add . #perintah ini memilih seluruh file sekaligus
-   # atau
-   git add "Praktikum n/NIM/FileYangBerubahAtauDitambahkan" #perintah ini memilih file tertentu
-   git commit -m "pesan mengenai penambahan atau perubahan apa yang anda lakukan"
+   
+  cd Lab-BasisData-08-2024
    
    ```
+- Buat *branch* baru berdasarkan NIM kalian serta gunakan branch tersebut untuk menyimpan kode dari soal yang dikerjakan
 
-6. Setelah asistensi dan tugas anda disetujui, **push** seluruh _file_ jawaban yang telah anda buat
-
-   ```sh
-
-   # pastikan proses commit telah selesai terhadap setiap file
-   git push origin NIM_ANDA
-
-   ```
+  ```sh
    
-   Jika sebelumnya anda belum pernah menghubungkan Git di komputer anda dengan akun GitHub anda, maka anda akan diminta untuk mengisi username dan password untuk
-   melakukan push ke repo GitHub anda.
-   ```sh
+  git checkout -b <NIM>
 
-   # username = username anda
-   # password = persocal access token anda
+  ```
+  
+- Di dalam folder NIM kalian, buat folder dengan nama "tugas-pertemuan-<no_pertemuan>" tanpa tanda kutip. contoh: tugas-pertemuan-1
+- Di dalam folder tugas praktikum tersebut, tambahkan semua folder project dari tugas yang ingin dikumpulkan
+- Setelah semua tugas terkumpul dan telah diasistensikan lakukan perintah berikut
 
-   ```
-   
-   Cara membuat personal access token:
-   ```sh
-   
-   #1. Klik profile anda pada pojok kanan atas GitHub
-   #2. Pilih menu settings
-   #3. Scroll ke bagian bawah dan pilih menu Dveloper settings
-   #4. Pilih Prsonal access tokens
-   #5. Pilih Generate new tokes
-   #6. Tuliskan note untuk token anda (ex: Token for Lab-BasisData-08-2024)
-   #7. Atur waktu expiration token anda (sesuai keinginan anda)
-   #8. Pada select scope, ceklis box repo
-   #9. Klik generate new token
-   #10. Pastikan untuk meng-copy token anda dan menyimpannya, karena token hanya bisa diliat sekali (*Jika hilang, buat token baru)
+  ```sh
+  
+  git add .
+  git commit -m "<pesan commit>"
+  git push origin <NIM>
 
-   ```
-   
-7. Masuk ke akun GitHub anda, dan buka repo yang telah anda **fork** dan **clone**. Lihat perubahan yang terjadi pada repo tersebut dan pastikan bahwa tugas yang
-   telah anda **push** sesuai dan berada pada repo tersebut.
-   
-8. Pilih menu **Pull request** dan lakukan **pull request** pada tugas praktikum anda.
-
-
-## Hal-hal yang harus diperhatikan:
-
-- [x] _**Cara mengumpulkan tugas sesuai dengan aturan diatas**_.
-- [x] _**Satu Praktikum, Satu Folder**_.
-- [x] _**Program Berjalan dengan Baik dan Benar Berdasarkan Ketentuan Tugas**_.
-- [x] _**Tugas Sudah di Asistensikan dan Mendapat Acc**_.
+  ```
+  
+  Note:
+  Pesan commit yang dibuat diharapkan sesuai dengan hal yang dilakukan. Seperti "menambah tugas praktikum ..." atau "memperbaiki bug pada ..."
+- Setelah perintah tersebut berhasil, silahkan membuka repository hasil fork kalian di github dan lakukan *pull request* ke repository ini
+- Apabila terdapat kesulitan, silahkan menghubungi asistennya.
